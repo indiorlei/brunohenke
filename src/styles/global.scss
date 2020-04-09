@@ -1,0 +1,30 @@
+html {
+    background-color: #0C0C0C;
+    color: #FFFFFF;
+    font-family: 'Archivo', sans-serif;
+    padding: 20px;
+
+    @media (min-width: 768px) {
+        // tablet
+        padding: 40px;
+    }
+
+    @media (min-width: 1200px) {
+        // desk
+        padding: 80px;
+    }
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #FFFFFF;
+}
+
+header,
+footer {
+    color: #FFFFFF;
+}
