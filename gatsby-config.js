@@ -10,9 +10,9 @@ module.exports = {
     siteUrl: 'http://brunohenke.com/',
     social: {
       email: 'brunohenkekds@gmail.com',
-      linkedin: 'https://www.linkedin.com/bruno.henke/',
+      linkedin: 'https://www.linkedin.com/in/brunohenke/',
       instagram: 'https://www.instagram.com/bruno.henke/',
-      savee: 'https://savee.it/bruno.henke/'
+      savee: 'https://savee.it/bruno/'
     },
   },
   plugins: [
