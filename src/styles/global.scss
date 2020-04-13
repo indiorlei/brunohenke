@@ -1,16 +1,16 @@
+@import './vars';
+
 html {
     background-color: #0C0C0C;
     color: #FFFFFF;
     font-family: 'Archivo', sans-serif;
     padding: 20px;
 
-    @media (min-width: 768px) {
-        // tablet
+    @media (min-width: $tablet) {
         padding: 40px;
     }
 
-    @media (min-width: 1200px) {
-        // desk
+    @media (min-width: $desk) {
         padding: 80px;
     }
 }
@@ -22,6 +22,12 @@ h3,
 h4,
 h5 {
     color: #FFFFFF;
+}
+
+main {
+    background-color: #0C0C0C;
+    z-index: 2;
+    position: relative;
 }
 
 header,

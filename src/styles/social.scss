@@ -1,21 +1,23 @@
+@import './vars';
+
 .nav {
     width: 100%;
     float: left;
 
-    @media (min-width: 768px) {
-        // tablet
+    @media (min-width: $tablet) {
         float: right;
         width: 40%;
         text-align: right;
     }
 
-    @media (min-width: 1200px) {
+    @media (min-width: $desk) {
         // desk
+        width: 20%;
     }
 }
 
 .social-menu {
-    @media (max-width: 767px) {
+    @media (max-width: $tabletMax) {
         display: flex;
         justify-content: space-between;
     }
@@ -28,12 +30,11 @@
         opacity: 0.5;
         text-decoration: none;
 
-        @media (min-width: 768px) {
+        @media (min-width: $tablet) {
             // tablet
         }
 
-        @media (min-width: 1200px) {
-            // desk
+        @media (min-width: $desk) {
             font-size: 30px;
         }
 

@@ -1,14 +1,15 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "bruno.henke",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "Bruno Henke",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Indiorlei de Oliviera <indiorleioliveira@gmail.com>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/indiorlei/bruno.henke"
   },
   "dependencies": {
     "gatsby": "^2.19.45",
+    "gatsby-cli": "^2.11.7",
     "gatsby-image": "^2.2.44",
     "gatsby-plugin-feed": "^2.3.29",
     "gatsby-plugin-google-analytics": "^2.1.38",
@@ -37,7 +38,7 @@
   "devDependencies": {
     "prettier": "^1.19.1"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://github.com/indiorlei/bruno.henke#readme",
   "keywords": [
     "gatsby"
   ],
@@ -45,7 +46,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/indiorlei/bruno.henke.git"
   },
   "scripts": {
     "build": "gatsby build",

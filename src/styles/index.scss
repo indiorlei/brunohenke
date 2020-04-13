@@ -1,7 +1,7 @@
+@import './vars';
+
 .index-post {
-    background-color: #0C0C0C;
     padding-bottom: 80px !important;
-    z-index: 2;
 
     &__title {
         font-size: 20px;
@@ -9,11 +9,11 @@
         display: inline-block;
         margin-bottom: 50px;
 
-        @media (min-width: 768px) {
+        @media (min-width: $tablet) {
             font-size: 30px;
         }
 
-        @media (min-width: 1200px) {
+        @media (min-width: $desk) {
             font-size: 40px;
         }
 
@@ -27,11 +27,11 @@
         p {
             margin: 0 0 20px 0 !important;
 
-            @media (min-width: 768px) {
+            @media (min-width: $tablet) {
                 margin: 0 0 40px 0 !important;
             }
 
-            @media (min-width: 1200px) {
+            @media (min-width: $desk) {
                 margin: 0 0 80px 0 !important;
             }
 
