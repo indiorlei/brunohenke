@@ -1,10 +1,6 @@
-<h1 align="center">
-  Portfolio do [Bruno Henke](http://brunohenke.com/ "Bruno Henke")
-</h1>
+*Portfolio do [Bruno Henke](http://brunohenke.com/ "Bruno Henke")*
 
-<h3 align="center">
 ![image](https://user-images.githubusercontent.com/5550084/79076055-774e9500-7ccd-11ea-9ba5-8cea55ae72ad.png)
-</h3>
 
 ## 🚀 Quick start
 
