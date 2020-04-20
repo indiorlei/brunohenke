@@ -17,19 +17,19 @@ const About = () => {
   const { social } = data.site.siteMetadata
   return (
     <section className="about content">
-        <p>
-          I am a Brazilian designer, living in Dublin, working at Wt.ag. I have been living in Dublin to study english and learn more about design with people to other place then me.
-        </p>
-        <p>
-          I started designing three and a haft years ago, and this make me really excited. I believe that just hard work is not enough, but if you get a hard work and love what you do, you can do and be whatever you want.
-        </p>
-        <p>
-          As a good Brazilian guy, I love soccer and sports, in my free time, I spent a lot of my time practice some kind of sports, like running, soccer, american football and others.
-        </p>
-        <p>
-          I really like make new friends, if you would like say hi, contact me in <a href={`mailto:${social.email}`}>{social.email}</a>
-        </p>
-      </section>
+      <p>
+        I am a Brazilian designer, I’ve been living in Dublin and working at Wt.ag. I came to Ireland to improve my English and learn more about design with people from different places.
+      </p>
+      <p>
+        I’ve been designing for three and a haft years, and I’m really excited about what I do. I don’t believe that just hard work is enough, but if you work hard and love what you do, you can do and be whatever you want.
+      </p>
+      <p>
+        I like sports and as a good Brazilian guy, I love soccer and I enjoy playing it. I also practice some other kind of sports, like running and American football.
+      </p>
+      <p>
+        So, if you would like say hi, contact me in <a href={`mailto:${social.email}`}>{social.email}</a>
+      </p>
+    </section>
   )
 }
 

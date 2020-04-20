@@ -3,10 +3,8 @@ module.exports = {
     title: 'Bruno Henke',
     author: {
       name: 'Bruno Henke',
-      work: 'Wt.ag',
-      place: 'Novo Hamburgo — BR'
     },
-    description: 'Hi, I’m Bruno Henke! I’ve been working as a UI/UX designer at Wt.ag in Novo Hamburgo — BR. Say hi, brunohenkekds@gmail.com',
+    description: 'Hi, I’m Bruno Henke! I’ve been living in Dublin working as a Visual designer at Wt.ag — BR. Say hi, brunohenkekds@gmail.com',
     siteUrl: 'http://brunohenke.com/',
     social: {
       email: 'brunohenkekds@gmail.com',

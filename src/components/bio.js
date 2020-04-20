@@ -8,8 +8,6 @@ const Bio = () => {
         siteMetadata {
           author {
             name
-            work
-            place
           }
           social {
             email
@@ -24,7 +22,7 @@ const Bio = () => {
     <section className="bio content">
       <p>
         Hi, I’m {author.name}! <br/>
-        I’ve been working as a UI/UX designer at {author.work} in {author.place}. <br/>
+        I’ve been living in Dublin working as a Visual designer at Wt.ag — BR. <br/>
         Say hi, <a href={`mailto:${social.email}`}>{social.email}</a>
       </p>
     </section>
