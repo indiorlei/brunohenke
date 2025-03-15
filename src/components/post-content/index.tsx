@@ -7,7 +7,7 @@ export default async function PostContent(props: {
   const { postData } = props;
 
   if (!postData) {
-    notFound();
+    return notFound();
   }
 
   return (

@@ -6,7 +6,7 @@ export default async function Posts() {
   const posts = await getAllPosts();
 
   if (!posts || posts.length === 0) {
-    notFound();
+    return notFound();
   }
 
   return posts.map((post) => <PostContent key={post.id} postData={post} />);
