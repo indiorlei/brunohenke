@@ -1,0 +1,36 @@
+.post {
+  h1 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+
+    @media (min-width: 768px) {
+      font-size: 80px;
+    }
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: normal;
+    max-width: 100%;
+
+    @media (min-width: 768px) {
+      font-size: 24px;
+      max-width: 688px;
+    }
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  video {
+    max-width: 100%;
+    height: auto;
+  }
+}
