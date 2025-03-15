@@ -23,6 +23,13 @@ export default {
             fontWeight: "400",
           },
         ],
+        "title-sm": [
+          "40px",
+          {
+            lineHeight: "100%",
+            fontWeight: "400",
+          },
+        ],
       },
     },
   },
